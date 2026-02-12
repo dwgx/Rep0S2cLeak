@@ -1,0 +1,23 @@
+using System;
+using System.Runtime.InteropServices;
+
+namespace LeastSquares.Overtone;
+
+public class FixedString : IDisposable
+{
+	public IntPtr Address { get; private set; }
+
+	public FixedString(string text)
+	{
+		Address = Marshal.StringToHGlobalAnsi(text);
+	}
+
+	public void Dispose()
+	{
+		if (!(Address == IntPtr.Zero))
+		{
+			Marshal.FreeHGlobal(Address);
+			Address = IntPtr.Zero;
+		}
+	}
+}
