@@ -1,12 +1,35 @@
+# Rep0S2cLeak
+
 ## Compliance Notice / 合规声明
 
-- This repository is provided only for education, reverse engineering research, debugging, and interoperability study.
-- Do not use any code or ideas here for unauthorized access, cheating in online services, privacy invasion, data theft, malware delivery, or service disruption.
-- You must comply with applicable laws, platform Terms of Service, and software/game EULA before any use.
-- If any content infringes your rights, open an issue or contact the maintainer for removal.
-- Full statement: [DISCLAIMER.md](./DISCLAIMER.md)
+- 本仓库仅用于学习、逆向研究、调试分析和兼容性研究。
+- 禁止用于未授权访问、破坏服务、隐私侵害、在线作弊、恶意传播等行为。
+- 使用者需自行遵守当地法律、平台条款与相关 EULA。
+- 完整声明见 [DISCLAIMER.md](./DISCLAIMER.md)
 
 ---
-# Rep0S2cLeak
-repposrcleaked
 
+这是一个历史源码整理仓库，当前内容以 C# 脚本与工程文件为主。
+
+## 仓库里有什么
+
+- 大量 `.cs` 脚本文件
+- 若干项目/资源目录（如 `Assets.*`、`Audial*`）
+- `Assembly-CSharp.csproj` 等工程相关文件
+
+## 适合做什么
+
+- 代码结构阅读
+- 命名与模块拆分参考
+- 静态分析与研究记录
+
+## 不适合做什么
+
+- 本仓库不是可直接一键运行的完整工程
+- 不提供违规用途支持
+
+## 使用建议
+
+1. 用 IDE 打开后先做全局索引
+2. 从入口脚本和管理类开始梳理
+3. 自行补齐缺失资源或依赖
